@@ -93,6 +93,13 @@ Finally, set up an alias to run `t`.  Put something like this in your
 Make sure you run `source ~/.bashrc` or restart your terminal window to make
 the alias take effect.
 
+**Quickstart**
+
+    hg clone http://bitbucket.org/sjl/t/
+    # [download]: http://bitbucket.org/sjl/t/get/tip.zip
+    mkdir ~/tasks
+    alias t='python ~/path/to/t.py --task-dir ~/tasks --list tasks'
+
 Using t
 -------
 
